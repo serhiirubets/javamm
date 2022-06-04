@@ -3,27 +3,29 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ownlang</artifactId>
-        <groupId>serhii</groupId>
+        <artifactId>javamm</artifactId>
+        <groupId>academy.devonline</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>vm</artifactId>
+
+    <name>Javamm virtual machine</name>
+    <description>Default VM for javamm programming language</description>
 
     <dependencies>
         <dependency>
-            <groupId>serhii</groupId>
+            <groupId>academy.devonline</groupId>
             <artifactId>compiler</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>serhii</groupId>
+            <groupId>academy.devonline</groupId>
             <artifactId>interpreter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>serhii</groupId>
+            <groupId>academy.devonline</groupId>
             <artifactId>library</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
